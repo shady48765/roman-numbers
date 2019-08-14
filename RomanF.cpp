@@ -1,14 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-main()
+int main()
 {
 	int i=0,j,k,m=0,l=0,a[20];
-	char ji[1];
+    
 	for(j;;j++)
 	{
-	system("cls");
-	printf("Enter : ");
+	printf("Enter a number : ");
 	i=0;
 	scanf("%d",&i);
 	
@@ -152,15 +151,7 @@ main()
     printf("\n");
     for(i=0;i<m;i++)
     printf("%c",a[i]);
-    m=0;
-    l=0;
-	printf("\n1-continue\n2-exit");
-		gets(ji);
-		scanf("%s",&ji);
-        j=ji[0];
-		if(j==49)
-		continue;
-     	else 
+    printf("\n");
 	    break;
 }
 }
